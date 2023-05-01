@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DemoDash</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="generatornav">
+        <a class="navlink" href="./about.html">Home</a>
+        <a class="navlink" href="./generator.html">Message Generator</a>
+        <a class="navlink" href="./labelPicker.html">Label Picker</a>
+      </nav>
+    <div>
+        <h2>Message Generator</h2>
+        <h3>Please fill in the following:</h3>
+        <!--Forms/checkboxes here-->
+        <form class="message-form">
+            <label for="recipient-name">Name of recipient (leave blank if you do not know their name):</label>
+            <input type="text" id="recipient-name" name="recipient-name">
+            <br><br>
+            <label for="your-name">Your name (or your artist name):</label>
+            <input type="text" id="your-name" name="your-name">
+            <br><br>
+            <label for="social-media-link">A link to your social media/website:</label>
+            <input type="text" id="social-media-link" name="social-media-link">
+            <br><br>
+            <label for="soundcloud-link">A private soundcloud link to your demo</label>
+            <input type="text" id="soundcloud-link" name="soundcloud-link">
+            <br><br>
+            <label for="first-time">Is it your first time sending them a message?</label>
+            <input type="checkbox" id="checker" name="first-time">
+            <br><br>
+            <!--buttons-->
+                <div>
+                <input type="submit" value="Generate message" class="submit-button" id="submit-button">
+                <button class="copy-button" id="copy-button">Copy Message</button>
+                </div>
+        </form>
+        <!--generated Message box here-->
+        <div id="message-box" class="message-container"></div>
+    </div>
+    
+    <script src="javascript.js"></script>
+</body>
+</html>

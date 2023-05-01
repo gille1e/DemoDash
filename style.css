@@ -1,0 +1,189 @@
+body {
+  background-color: #00020E;
+  font-family: Tahoma, sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+#mainTitle {
+  font-size: 12rem;
+  color: #ffffff;
+  text-align: center;
+  font-style: italic;
+  animation: rainbow 4s linear infinite;
+  margin-bottom: 0 ;
+}
+
+@keyframes rainbow {
+  0% {
+    color: #009a00;
+  }
+  50% {
+    color: #6aff00;
+  }
+  100% {
+    color: #009a00;
+  }
+}
+/* navlinks*/
+#aboutnav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.navlink {
+  font-size: 4rem;
+  color: #6aff00;
+  text-align: center;
+  padding: 80px;
+  letter-spacing: 1px;
+
+}
+
+.navlink:link {
+  color: #6aff00;
+}
+
+.navlink:visited {
+  color: #6aff00;
+}
+
+
+
+h1,
+h2 {
+  font-size: 4rem;
+  color: #6aff00;
+  text-align: center;
+  margin-top: 10%;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #aeff75;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.standardText {
+  font-size: 2rem;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 1px;
+  max-width: 800px;
+  text-align: left;
+  justify-content: center;
+  
+}
+/* centering text on about page */
+#aboutText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* link styling */
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  padding-top: 50px;
+}
+
+.links a {
+  margin: 20px;
+  color: white;
+  font-size: 4rem;
+  text-decoration: none;
+}
+
+.links .enter-link {
+  color: #6aff00;
+}
+
+/* forms */
+.message-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+form label {
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+  font-family: Tahoma, sans-serif;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+form input[type="text"],
+form input[type="checkbox"] {
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #f2f2f2;
+}
+
+#checker {
+  transform: scale(2);
+  margin-left: 10px;
+}
+
+.submit-button {
+  font-size: 2em;
+}
+.copy-button {
+ 
+  font-size: 2em;
+ 
+}
+
+/* anchor element styling */
+a:visited {
+  color: #f0e442;
+}
+
+a:link {
+  color: #6aff00;
+}
+
+.message-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  max-width: 800px; 
+  width: 100%;
+  background-color: white; 
+  margin: 30px 0 auto; 
+}
+
+.message-box {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Tahoma, sans-serif;
+  color: lime; 
+  text-align: left; 
+  
+}
+#gendiv {
+  margin-top: 50px;
+}
